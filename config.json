@@ -1,0 +1,28 @@
+{
+  "name": "Obsolete module version cleaner",
+  "namespace": "uzgent\\ObsoleteModuleVersions",
+  "framework-version": 3,
+  "description": "This module allows you to clean up old inactive module versions.",
+  "authors": [
+    {
+      "name": "Lieven Vaneeckhaute",
+      "email": "lieven.vaneeckhaute@uzgent.be",
+      "institution": "University Hospital Ghent"
+    }
+  ],
+  "documentation" : "howto.html",
+  "permissions": [
+  ],
+  "links": {
+    "control-center": [
+      {
+        "name": "Show obsolete modules",
+        "icon": "fas fa-eraser",
+        "url": "cleanup.php",
+        "show-header-and-footer": true
+      }
+    ]
+  }
+
+
+}
